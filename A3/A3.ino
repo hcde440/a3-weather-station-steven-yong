@@ -18,7 +18,7 @@
 #define OLED_RESET 13
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-//The identifiers and passwords to connect to the internet and MQTT.
+//Identifiers and passwords to connect to the internet and MQTT.
 #define ssid ""
 #define pass ""
 
